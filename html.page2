@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Video Games</title>
+</head>
+
+<body>
+<ul>
+<li><a href="index.html"><strong>Resume</strong></a></li>
+<li><a href="page2.html"><strong>Video Games</strong></a></li>
+<li><a href="page3.html"><strong>Formula 1</strong></a></li>
+</ul>
+
+<section>
+<h1>Why I Like Videogames</h1>
+<p>Videogames allow for creativity and imagination. They can spark different intrest that you may not have known about. Lastly they are an outlet to express yourself and can help you relax.</p>
+</section>
+
+<section>
+<h2>My Favorite Video Games</h2>
+<p>Some of my games include NBA 2k franchise, GTA V, and Cyberpunk 2077.</p>
+<img src="https://compass-ssl.xboxlive.com/assets/ab/a4/aba4ae4a-a086-4887-b6ce-53341380c373.jpg?n=MSXC-NBATitle-HeroAndImageCard-large-l-794x447-16x9-01.jpg" alt="NBA 2k logo">
+<img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png" alt="GTA V">
+<img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg" alt="Cyberpunk 2077">
+</section>
+
+</body>
+</html>
