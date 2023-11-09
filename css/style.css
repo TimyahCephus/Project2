@@ -11,25 +11,33 @@ h1 {
 p {
   color: black;
 }
-   ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+nav {
+  background-color: #1C3144;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-li {
-  float: left;
-}
-
-li a {
+nav a {
+  float: center;
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  color: #c2d9dd;
+  padding: 1%;
 }
 
-li a:hover {
-  background-color: #111;
+nav a:hover {
+  background-color: #122433;
+}
+
+nav a.active {
+  color: #e84e67;
+  background-color: #091826;
+}
 
