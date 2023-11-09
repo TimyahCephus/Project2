@@ -41,3 +41,6 @@ nav a.active {
   background-color: #091826;
 }
 
+a:hover {
+  color: #62a3ad;
+}
