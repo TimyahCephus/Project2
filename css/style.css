@@ -12,16 +12,35 @@ p {
   color: black;
 }
 
-nav ul {
-  list-style: none;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-nav li {
-  display: inline;
-  margin: 0 20px;
+li {
+  float: left;
+  border-right:1px solid #bbb;
 }
 
-nav a {
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  color: #fff;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
 }
